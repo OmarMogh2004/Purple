@@ -107,7 +107,7 @@ client.on('message', message => {
 }
 });
 client.on('message', message => {
-if(message.content.startsWith(prefix +"server")){
+if(message.content.startsWith(# +"server")){
   if(!message.guild.member(message.author).hasPermission("ADMINISTRATOR")) return message.reply(`**هذه الخاصية للادارة فقط** :negative_squared_cross_mark: `)
 if(!message.channel.guild) return message.reply(' ');
 const millis = new Date().getTime() - message.guild.createdAt.getTime();
